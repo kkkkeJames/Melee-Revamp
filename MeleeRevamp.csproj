@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		
+	</PropertyGroup>
+
+	<!-- References -->
+	<ItemGroup>
+	  <Folder Include="Content\Assets\" />
+	  <Folder Include="Content\Effects\" />
+	  <Folder Include="lib\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="ParticleLibrary">
+	    <HintPath>lib\ParticleLibrary.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>

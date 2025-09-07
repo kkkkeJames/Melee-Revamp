@@ -1,0 +1,4 @@
+displayName = Melee Revamp Beta
+author = SYLRIK
+version = 0.1
+modReferences = ParticleLibrary
